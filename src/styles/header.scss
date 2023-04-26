@@ -1,0 +1,50 @@
+/*Header Styling*/
+#head{
+    background-color: yellow;
+}
+#top1{
+    color:rgb(183, 62, 62);
+    text-align:center;
+    font-size:46px;
+    font-family:Verdana ;
+}
+#top2{
+    text-align:center;
+    color:rgb(86, 124, 34);
+    font-size:21px;
+    font-family: Verdana;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(73, 89, 139);
+    height: 14vh;
+    width: 100vw;
+    font-family: Verdana;
+    margin-top:10px;
+    border: 2px solid black;
+    border-radius:15px;
+    >img{
+     display:block;
+     width: 50px;
+     height:50px;
+     margin:auto;
+     margin-bottom: 15px;
+    }
+    >ul{
+        display: flex;
+        justify-content: center;
+      >a{
+        list-style: none;
+        margin: 10px;
+        padding: 1px;
+        color:white;
+        text-decoration: none;
+        border-radius:50px;
+        >&:hover{
+           background-color: rgb(6, 131, 106);
+           border-radius: 10px;
+           }
+        }
+   }
+}

@@ -1,0 +1,136 @@
+/*Making the webpage responsive using media queries*/
+@media only screen and (max-width:1150px){
+    #row4{
+        width: 42vw;
+    }
+    #row5{
+        width:45vw;
+    }
+    #row6{
+        margin-top: 20px;
+        width:90vw;
+    }
+    .contact{ 
+        > main {
+        height: 650px;
+        width:100%;
+        border-radius: 0%;
+        h1{
+            text-align: center;
+        }
+    }
+}
+}
+@media only screen and (min-width:577px) and (max-width:768px)
+{
+    #row4{
+        width:84vw;
+        margin: auto;
+        margin-left: 22px;
+    }
+    #row5{
+        
+        width:84vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+    #row6{
+        width:84vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+    .contact {
+        >main{
+            padding: 3rem;
+            h1 {
+                margin: 1rem;
+            }
+            >form {
+                margin: 0%;
+            }
+            > div {
+                width: 100%;
+            }
+        }
+    }
+}
+@media only screen and (max-width:576px){
+    #row4{
+        width:78vw;
+        margin: auto;
+        margin-left: 3px;
+    }
+    #row5{
+        
+        width:78vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 3px;
+    }
+    #row6{
+        width:78vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 3px;
+    }
+    .contact {
+        >main{
+            height: 100%;
+            padding: 2rem;
+            h1 {
+                margin: 1rem;
+            }
+            >form {
+                margin: 0%;
+            }
+            > div {
+                width: 100%;
+            }
+        }
+    }
+
+}
+@media only screen and (min-height:1000px){
+    #navbar{
+        height:10vh;
+    }
+    #container1::before{
+        height:39vh;
+    }
+    #container1{
+        height:44vh
+    }
+    .contact {
+        height: 1000px;
+        width: 100%;
+        >main{
+            height: 800px;
+            margin: 1rem;
+            padding: 1rem;
+            h1 {
+                margin: 1rem;
+                text-align: center;
+            }
+            >form {
+                margin: 5vh;
+            }
+            > div {
+                width: 1vh;
+            }
+        }
+        display: flex-end;
+        position: ab
+        ;
+        button{
+            height: 5;
+            width:auto
+        }
+    }
+    .foot{
+        width: 5vh;
+        height: 5px;
+        position:relative;
+    }
+}
